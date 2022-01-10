@@ -1,0 +1,12 @@
+Virtual-Enviornment tut
+pip3.9 install virtualenv               -> install virtual enviornment in system
+virtualenv <name_of_enviornment>        -> to virtual enviornment with required name_of_enviornment
+source ./practice/bin/activate          -> to activate/enter into virtual enviornment       for linux users
+deactivate                              -> to exit the virtual enviornment
+install all and any required modules in the enviornments using pip3
+pip freeze > requirements.txt		    -> create a requirements.txt file with details of all the packages inside the virtual enviornment
+pip install -r requirements.txt	        -> install all the modules mentioned inside the file to a new virtual enviornment
+
+virtualenv --system-site-packages <new_env>	    :--> install all base machine packages inside a new virtual-env
+
+pip3.9 install numpy==1.15.4             -> install a specific version of a module

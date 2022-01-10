@@ -1,0 +1,7 @@
+pip install pyinstaller
+pyinstaller <python_file_name.py>
+got inside dist folder
+run --> .exe file to run the program
+
+
+pyinstaller --onefile file.py           --> create single .exe file

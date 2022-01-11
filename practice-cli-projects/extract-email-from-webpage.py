@@ -2,9 +2,9 @@ from requests_html import HTMLSession
 import re
 # from bs4 import BeautifulSoup
 
-url =r"https://www.randomlists.com/email-addresses"
+url =r"https://softobiz.com/contact-us/"
 
-pattern =r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+"
+pattern =r"\w+@\S+\w"
 
 session = HTMLSession()
 
@@ -14,7 +14,7 @@ response.html.render()
 
 body = response.html.find("body")[0]
 
-emails = re.findall(r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+", body.text)
+emails = re.findall(r"\w+@\S+\w", body.text)
 
 for index,email in enumerate(emails):
-    print(index+1, "---->", email)
+    print(index+1, email)

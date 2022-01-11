@@ -1,3 +1,0 @@
-Learning Python from basics to expert.
-Aim to become Data scientist in nearfuture.
-Further proceed to learning ML & AI.

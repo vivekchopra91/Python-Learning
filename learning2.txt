@@ -1,9 +1,0 @@
-Writing a file using python.
-Append a new line to the file.
-Append a new line to the file.
-Append a new line to the file.
-Append a new line to the file.
-Append a new line to the file.
-Append a new line to the file.
-thank you
-thank you
